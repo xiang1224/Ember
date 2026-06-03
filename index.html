@@ -167,7 +167,7 @@
             background-color: #121212;
         }
 
-        /* 3. 八罪機器區塊 (The Eight Sins) */
+        /* 3. 原罪機器區塊 (The Sins) */
         #sins {
             padding: 100px 5%;
             background-color: #0A0A0A;
@@ -241,7 +241,7 @@
             font-style: italic;
         }
 
-        /* 4. 餘燼小隊區塊 (Ember) */
+        /* 4. 餘燼小隊區塊 */
         #ember {
             padding: 100px 10%;
             background-color: #0D0D0D;
@@ -443,7 +443,7 @@
             font-size: 1rem;
             color: #888;
             font-style: italic;
-            margin-bottom: 2rem;
+            margin-bottom: 1.5rem;
         }
 
         .modal-bio {
@@ -527,9 +527,9 @@
         </div>
     </section>
 
-    <!-- 3. 八罪機器區塊 -->
+    <!-- 3. 原罪機器區塊 -->
     <section id="sins">
-        <h2 class="section-title">八罪</h2>
+        <h2 class="section-title">九大原罪</h2>
         <div class="sins-grid">
             <div class="sin-card">
                 <div class="sin-name-en">Gluttony</div>
@@ -571,10 +571,15 @@
                 <div class="sin-name-zh">傲慢</div>
                 <div class="sin-desc">過度自我膨脹，超脫上帝與萬物，認為自己勝過一切。</div>
             </div>
+            <div class="sin-card">
+                <div class="sin-name-en">Vengeance</div>
+                <div class="sin-name-zh">復仇</div>
+                <div class="sin-desc">打破因果的利刃。拯救生命需要完美的雙手，但推動毀滅，只需要一顆冷漠的心。</div>
+            </div>
         </div>
         <div class="banquet-call">
-            「當這台由八罪組成的機器啟動時，他們稱之為 —— <strong>開席</strong>。」<br>
-            不同於以往的修正，這一次他們是混亂的締造者。他們用優雅的手法挑動金融危機、政權更迭或社會崩塌，因為唯有在巨大的混亂中，這八種罪惡才能得到最充分的「進食」。
+            「當這台由九大原罪組組成的機器啟動時，他們稱之為 —— <strong>開席</strong>。」<br>
+            不同於以往的修正，這一次他們是混亂的締造者。他們用優雅的手法挑動金融危機、政權更迭或社會崩塌，因為唯有在巨大的混亂中，這九種原罪才能得到最充分的「進食」。
         </div>
     </section>
 
@@ -603,7 +608,7 @@
         <div class="roster-grid">
             <!-- 席位 01 -->
             <div class="member-card"
-                onclick="openArchive('ember07', '路西恩 · 凡 · 艾許', 'WRATH ｜ 憤怒', 'Lucien van Ash —— 【白鴉】', '作為新餘燼小隊的隊長，他體現著最優雅的【憤怒】。不滿於舊教條的窒息感，他親手將沒有靈魂的舊機器付之一炬。在廢墟與火光之中，他引導著全新力量的集結，冷眼謀劃著讓文明根基徹底崩塌的交響樂章。')">
+                onclick="openArchive('image01', '路西恩 · 凡 · 艾許', 'WRATH ｜ 憤怒', 'Lucien van Ash —— 【白鴉】', '作為新餘燼小隊的隊長，他體現著最優雅的【憤怒】。不滿於舊教條的窒息感，他親手將沒有靈魂的舊機器付之一炬。在廢墟與火光之中，他引導著全新力量的集結，冷眼謀劃著讓文明根基徹底崩塌的交響樂章。')">
                 <div class="seat-number">SEAT 01</div>
                 <div class="member-sin">憤怒 ｜ Wrath</div>
                 <div class="member-name">路西恩 · 凡 · 艾許</div>
@@ -611,15 +616,15 @@
             </div>
             <!-- 席位 02 -->
             <div class="member-card"
-                onclick="openArchive('ember02', '塞拉菲娜．溫莎', 'GLUTTONY ｜ 暴食', 'Seraphina Windsor —— 【遺珠】', '「進食是刻進靈魂的唯一真理。」作為【遺珠】，她對能量與混亂有著永不飽足的過度貪求。在看似高貴體面的外表下，她以優雅的姿態蠶食著凡俗世界的秩序，唯有在巨大的社會崩塌中，她的罪惡才能得到最充分的飽腹。')">
+                onclick="openArchive('image02', '塞拉菲娜．溫莎', 'GLUTTONY ｜ 暴食', 'Seraphina Windsor —— 【遺珠】', '「進食是刻進靈魂的唯一真理。」作為【遺珠】，她對能量與混亂有著永不飽足的過度貪求。在看似高貴體面的外表下，她以優雅的姿態蠶食著凡俗世界的秩序，唯有在巨大的社會崩塌中，她的罪惡才能得到最充分的飽腹。')">
                 <div class="seat-number">SEAT 02</div>
                 <div class="member-sin">暴食 ｜ Gluttony</div>
                 <div class="member-name">塞拉菲娜．溫莎</div>
                 <div class="member-codename">Seraphina Windsor —— 【遺珠】</div>
             </div>
-            <!-- 席位 03 （綁定 image03.jpg） -->
+            <!-- 席位 03 -->
             <div class="member-card"
-                onclick="openArchive('ember03', '蒔拔羅翰．達斯錫', 'LUST ｜ 色慾', 'Darsy Shivarohan —— 【耳朵】', '「放縱執念，偏離神聖的愛。」作為新餘燼小隊的席位 03，他被冠以【耳朵】之名。在優雅的交際場與權力陰暗面中，他捕捉著那些因慾望而崩塌的頻率。當聖宴開席，他負責撥動最敏感的弦，讓世界在狂熱的放縱中走向終焉。')">
+                onclick="openArchive('image03', '蒔拔羅翰．達斯錫', 'LUST ｜ 色慾', 'Darsy Shivarohan —— 【耳朵】', '「放縱執念，偏離神聖的愛。」作為新餘燼小隊的席位 03，他被冠以【耳朵】之名。在優雅的交際場與權力陰暗面中，他捕捉著那些因慾望而崩塌的頻率。當聖宴開席，他負責撥動最敏感的弦，讓世界在狂熱的放縱中走向終焉。')">
                 <div class="seat-number">SEAT 03</div>
                 <div class="member-sin">色慾 ｜ Lust</div>
                 <div class="member-name">蒔拔羅翰．達斯錫</div>
@@ -627,7 +632,7 @@
             </div>
             <!-- 席位 04 -->
             <div class="member-card"
-                onclick="openArchive('ember04', '歐拉夫．達斯錫', 'VAINGLORY ｜ 虛榮', 'Darsy Olaf —— 【灰犬】', '與同姓氏的成員共享著某種幽暗的聯繫，他將自我神格化的包裝發揮到了極致。作為【灰犬】，他敏銳、迅捷，無時無刻不渴望著他人的認可與讚賞。在聚光燈的陰影下，他用最精準的手段挑動金融與人性的危機。')">
+                onclick="openArchive('image04', '歐拉夫．達斯錫', 'VAINGLORY ｜ 虛榮', 'Darsy Olaf —— 【灰犬】', '與同姓氏的成員共享著某種幽暗的聯繫，他將自我神格化的包裝發揮到了極致。作為【灰犬】，他敏銳、迅捷，無時無刻不渴望著他人的認可與讚賞。在聚光燈的陰影下，他用最精準的手段挑動金融與人性的危機。')">
                 <div class="seat-number">SEAT 04</div>
                 <div class="member-sin">虛榮 ｜ Vainglory</div>
                 <div class="member-name">歐拉夫．達斯錫</div>
@@ -635,7 +640,7 @@
             </div>
             <!-- 席位 05 -->
             <div class="member-card"
-                onclick="openArchive('emberxx', '芙蕾·蒙特羅斯', 'SLOTH ｜ 怠惰', 'Frey Montrose —— 【睡蓮】', '逃避凡俗的責任，冷眼旁觀萬物的破滅。被冠以【睡蓮】之名的她，在戰術與破壞的編排中展現了一種近乎冷酷的惰性。她不追求瞬間的暴動，而是以最優雅、最不費力的方式，讓文明的根基在悄無聲息中自行瓦解。')">
+                onclick="openArchive('image05', '芙蕾·蒙特羅斯', 'SLOTH ｜ 怠惰', 'Frey Montrose —— 【睡蓮】', '逃避凡俗的責任，冷眼旁觀萬物的破滅。被冠以【睡蓮】之名的她，在戰術與破壞的編排中展現了一種近乎冷酷的惰性。她不追求瞬間的暴動，而是以最優雅、最不費力的方式，讓文明的根基在悄無聲息中自行瓦解。')">
                 <div class="seat-number">SEAT 05</div>
                 <div class="member-sin">怠惰 ｜ Sloth</div>
                 <div class="member-name">芙蕾·蒙特羅斯</div>
@@ -643,7 +648,7 @@
             </div>
             <!-- 席位 06 -->
             <div class="member-card"
-                onclick="openArchive('emberxx', '提拉·蒙特羅斯', 'ACEDIA ｜ 憂鬱', 'Tyra Montrose —— 【白鳥】', '冷漠、悲傷、對生活徹底失去了凡俗的盼望。作為【白鳥】，她與【睡蓮】共享著某種精神上的共鳴。她的內壓來自於對世界徹底的失望，那種浸透骨髓的憂鬱化作最冰冷的執行力，優雅地挑動政權更迭。')">
+                onclick="openArchive('image06', '提拉·蒙特羅斯', 'ACEDIA ｜ 憂鬱', 'Tyra Montrose —— 【白鳥】', '冷漠、悲傷、對生活徹底失去了凡俗的盼望。作為【白鳥】，她與【睡蓮】共享著某種精神上的共鳴。她的內壓來自於對世界徹底的失望，那種浸透骨髓的憂鬱化作最冰冷的執行力，優雅地挑動政權更迭。')">
                 <div class="seat-number">SEAT 06</div>
                 <div class="member-sin">憂鬱 ｜ Acedia</div>
                 <div class="member-name">提拉·蒙特羅斯</div>
@@ -651,7 +656,7 @@
             </div>
             <!-- 席位 07 -->
             <div class="member-card"
-                onclick="openArchive('ember05', '馬可・維爾', 'GREED ｜ 貪婪', 'Marco・Vale —— 【灰帳】', '因內心對物質與權力的過度追求而覺醒，在權力的頂峰依然維持著客氣而疏離的體面。代號【灰帳】，他像一隻無形的手，悄無聲息地編織著金融危機。唯有在巨大的體制崩塌中，他的貪婪之火才能燃燒得最為旺盛。')">
+                onclick="openArchive('image07', '馬可・維爾', 'GREED ｜ 貪婪', 'Marco・Vale —— 【灰帳】', '因內心對物質與權力的過度追求而覺醒，在權力的頂峰依然維持著客氣而疏離的體面。代號【灰帳】，他像一隻無形的手，悄無聲息地編織著金融危機。唯有在巨大的體制崩塌中，他的貪婪之火才能燃燒得最為旺盛。')">
                 <div class="seat-number">SEAT 07</div>
                 <div class="member-sin">貪婪 ｜ Greed</div>
                 <div class="member-name">馬可・維爾</div>
@@ -659,11 +664,20 @@
             </div>
             <!-- 席位 08 -->
             <div class="member-card"
-                onclick="openArchive('ember06', '諾亞．懷特', 'PRIDE ｜ 傲慢', 'Noah white —— 【青鸞】', '過度自我膨脹，認為自己超脫於上帝與一切凡人之上。代號【青鸞】的他，站在餘燼席位的最末端，卻俯瞰著整個局勢。他的每一步行動都充斥著對凡俗秩序的蔑視，用最尊貴的姿態俯瞰著文明化為焦土。')">
+                onclick="openArchive('image08', '諾亞．懷特', 'PRIDE ｜ 傲慢', 'Noah white —— 【青鸞】', '過度自我膨脹，認為自己超脫於上帝與一切凡人之上。代號【青鸞】的他，站在餘燼席位的最末端，卻俯瞰著整個局勢。他的每一步行動都充斥著對凡俗秩序的蔑視，用最尊貴的姿態俯瞰著文明化為焦土。')">
                 <div class="seat-number">SEAT 08</div>
                 <div class="member-sin">傲慢 ｜ Pride</div>
                 <div class="member-name">諾亞．懷特</div>
                 <div class="member-codename">Noah white —— 【青鸞】</div>
+            </div>
+
+            <!-- 席位 09：凱文．諾瓦克（與其他成員完全一致的卡片設定） -->
+            <div class="member-card"
+                onclick="openArchive('image09', '凱文．諾瓦克 ｜ Kevin Novak', 'VENGEANCE ｜ 復仇', 'Kevin Novak —— 【冰針】', '前胸腔外科首席。因雙手神經受損，在執念動刀失敗後弦斷裂，墜入死寂的冷漠。他戴上白手套隱瞞殘缺，精準引導車禍向世界復仇，因而被教團高層親自空降送入小隊。他是混難核心最體面的死線維持者。若被提及雙手不能動刀，會瞬間激發極度冷酷的殺意。')">
+                <div class="seat-number">SEAT 09</div>
+                <div class="member-sin">復仇 ｜ Vengeance</div>
+                <div class="member-name">凱文．諾瓦克</div>
+                <div class="member-codename">Kevin Novak —— 【冰針】</div>
             </div>
         </div>
     </section>
@@ -704,7 +718,7 @@
             const mCode = document.getElementById('modalCode');
             const mBio = document.getElementById('modalBio');
 
-            // 根據傳入的圖片名稱自動去 img 資料夾抓取對應檔案
+            // 根據傳入的圖片名稱，前往 img 資料夾抓取對應的 .png 檔案
             mImg.src = "img/" + imgName + ".png";
 
             // 填入對應的成員文字資訊
